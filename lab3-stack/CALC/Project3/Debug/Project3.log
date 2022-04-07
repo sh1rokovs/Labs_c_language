@@ -1,0 +1,22 @@
+﻿Сборка начата 27.12.2018 0:35:33.
+     1>Проект "D:\Git\lab3-stack\Calc\Project3\Project3.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         D:\Program\MVS\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.1\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib MyForm.cpp
+         MyForm.cpp
+     1>d:\git\lab3-stack\calc\project3\../../Tcalc.h(53): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\git\lab3-stack\calc\project3\../../Tcalc.h(98): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\git\lab3-stack\calc\project3\../../Tcalc.h(129): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\git\lab3-stack\calc\project3\../../Tcalc.h(177): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\git\lab3-stack\calc\project3\../../Tcalc.h(192): warning C4018: <: несоответствие типов со знаком и без знака
+     1>d:\git\lab3-stack\tcalc.h(86): warning C4715: TCalculator::Prty: значение возвращается не при всех путях выполнения
+         D:\Program\MVS\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /TP /analyze- /errorReport:prompt "C:\Users\OkayThisIsSid\AppData\Local\Temp\.NETFramework,Version=v4.5.1.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.5.1.AssemblyAttributes.cpp
+       Link:
+         D:\Program\MVS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Git\lab3-stack\Debug\Project3.exe" /INCREMENTAL /NOLOGO /ASSEMBLYRESOURCE:Debug\Project3.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Git\lab3-stack\Debug\Project3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\MyForm.obj
+         "Debug\.NETFramework,Version=v4.5.1.AssemblyAttributes.obj"
+         Project3.vcxproj -> D:\Git\lab3-stack\Debug\Project3.exe
+     1>Сборка проекта "D:\Git\lab3-stack\Calc\Project3\Project3.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:03.34
