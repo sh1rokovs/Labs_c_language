@@ -1,0 +1,31 @@
+﻿Build started 05.06.2018 1:58:13.
+     1>Project "C:\Users\OkayThis'sSid\Documents\Visual Studio 2012\Projects\Vector\Vector\Vector.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\..\okaythis'ssid\documents\visual studio 2012\Projects\Vector\Vector\main.cpp"
+         main.cpp
+     1>c:\users\okaythis'ssid\documents\visual studio 2012\projects\vector\vector\vector.h(102): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\okaythis'ssid\documents\visual studio 2012\projects\vector\vector\vector.h(101) : while compiling class template member function 'int Vector<T>::operator *(const Vector<T> &)'
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\okaythis'ssid\documents\visual studio 2012\projects\vector\vector\main.cpp(38) : see reference to function template instantiation 'int Vector<T>::operator *(const Vector<T> &)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 c:\users\okaythis'ssid\documents\visual studio 2012\projects\vector\vector\main.cpp(9) : see reference to class template instantiation 'Vector<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\OkayThis'sSid\Documents\Visual Studio 2012\Projects\Vector\Debug\Vector.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\OkayThis'sSid\Documents\Visual Studio 2012\Projects\Vector\Debug\Vector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\OkayThis'sSid\Documents\Visual Studio 2012\Projects\Vector\Debug\Vector.lib" /MACHINE:X86 Debug\main.obj
+         Debug\flow.obj
+         Debug\rational.obj
+         Vector.vcxproj -> C:\Users\OkayThis'sSid\Documents\Visual Studio 2012\Projects\Vector\Debug\Vector.exe
+     1>Done Building Project "C:\Users\OkayThis'sSid\Documents\Visual Studio 2012\Projects\Vector\Vector\Vector.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.39
