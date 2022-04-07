@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\ProjectsC++\Tlist\Tlist\TList.h(88): warning C4715: TList::operator[]: значение возвращается не при всех путях выполнения
+  Tlist.vcxproj -> D:\ProjectsC++\Tlist\Debug\Tlist.exe
